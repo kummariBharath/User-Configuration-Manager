@@ -47,6 +47,8 @@ test_settings = {
     "language": "english",
     "notifications": "enabled"
 }
+if __name__ == "__main__":
+    test_settings = {}
 
 print(add_setting(test_settings, ("Volume", "High")))
 print(update_setting(test_settings, ("Theme", "Light")))
