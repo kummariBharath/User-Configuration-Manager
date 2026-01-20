@@ -13,7 +13,7 @@ def add_setting(settings: dict, pair: tuple):
 def update_setting(settings: dict, pair: tuple):
     key, value = pair
     key = key.lower()
-    value = value.lower()
+    value = value.lower() 
 
     if key in settings:
         settings[key] = value
